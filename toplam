@@ -1,0 +1,5 @@
+# ex.
+x=int(input("bir sayi girin"))
+y=int(input("bir sayi daha girin"))
+toplam=x+y
+print(toplam)
