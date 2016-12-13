@@ -1,0 +1,13 @@
+a=int(input("x karenin kat sayisi"))
+b=int(input("x in kat sayisi"))
+c=int(input("sabit sayi"))
+delta=(b^2)-(4*a*c)
+if delta<0:
+  print("reel kök yoktur")
+elif delta==0:
+  kök=-b/(2*a)
+  print(kök)
+else:
+  ilkkök=(-b-(delta**(1/2)))/(2*a)
+  ikincikök=(-b+(delta**(1/2)))/(2*a)
+  print(ilkkök,ikincikök)
